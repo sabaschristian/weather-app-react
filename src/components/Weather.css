@@ -1,0 +1,28 @@
+.weather_container {
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    margin-top: 1.5rem;
+}
+
+.weather_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.country_name {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.weather_temp {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.weather_text {
+    color: #aaa;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
