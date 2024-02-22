@@ -14,7 +14,7 @@ const App = () => {
     try {
 
       if(country === ''){
-        return isError;
+        return isError
       }
 
       setIsLoading(!isLoading) // true
